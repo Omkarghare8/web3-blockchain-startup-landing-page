@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NexaChain - Revolutionary Web3 & Blockchain Platform for the Future of Decentralized Finance">
+    <meta name="keywords" content="Web3, Blockchain, DeFi, Cryptocurrency, NFT, Smart Contracts">
+    <meta name="author" content="NexaChain">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="NexaChain - Future of Web3">
+    <meta property="og:description" content="Revolutionary blockchain platform powering the next generation of decentralized applications">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>NexaChain | Revolutionary Web3 & Blockchain Platform</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-cube">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face right"></div>
+                <div class="face left"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+            </div>
+            <div class="preloader-text">NexaChain</div>
+            <div class="preloader-bar">
+                <div class="preloader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Particles -->
+    <div class="bg-particles">
+        <div class="gradient-orb gradient-orb-1"></div>
+        <div class="gradient-orb gradient-orb-2"></div>
+        <div class="gradient-orb gradient-orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <div class="logo-icon"></div>
+            <span>NexaChain</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#team">Team</a>
+            <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="nav-right">
+            <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-ball"></div>
+            </div>
+            <button class="btn btn-primary">Launch App</button>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#team">Team</a>
+        <a href="#faq">FAQ</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Live on Mainnet
+                </div>
+                <h1>The Future of <span>Decentralized</span> Finance</h1>
+                <p class="hero-description">
+                    NexaChain is a next-generation blockchain platform powering the future of Web3. 
+                    Build, deploy, and scale decentralized applications with unprecedented speed and security.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started →</button>
+                    <button class="btn btn-secondary">Read Whitepaper</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0K+</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">$0M+</div>
+                        <div class="stat-label">Total Value Locked</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="99">0%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-chain"></div>
+                <div class="floating-chain"></div>
+                <div class="floating-chain"></div>
+                <div class="floating-chain"></div>
+                <div class="blockchain-cube">
+                    <div class="cube-face front">⬡</div>
+                    <div class="cube-face back">⬢</div>
+                    <div class="cube-face right">◈</div>
+                    <div class="cube-face left">◇</div>
+                    <div class="cube-face top">⬡</div>
+                    <div class="cube-face bottom">⬢</div>
+                </div>
+                <svg class="connection-lines" viewBox="0 0 400 400">
+                    <path class="connection-line" d="M50,50 Q200,100 350,50" />
+                    <path class="connection-line" d="M50,350 Q200,300 350,350" />
+                    <path class="connection-line" d="M50,200 Q200,250 350,200" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header reveal">
+            <span class="section-label">Features</span>
+            <h2 class="section-title">Why Choose <span>NexaChain</span></h2>
+            <p class="section-subtitle">
+                Experience the next evolution of blockchain technology with our cutting-edge features
+            </p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card reveal">
+                <div class="feature-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Process over 100,000 transactions per second with sub-second finality</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">🔒</div>
+                <h3>Ultra Secure</h3>
+                <p>Military-grade encryption with advanced consensus mechanisms</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">🌐</div>
+                <h3>Interoperable</h3>
+                <p>Seamlessly connect with any blockchain network or protocol</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">💎</div>
+                <h3>Low Fees</h3>
+                <p>Micro-transactions with fees as low as $0.001 per transaction</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">🔧</div>
+                <h3>Developer Friendly</h3>
+                <p>Comprehensive SDKs and APIs for rapid dApp development</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">🌱</div>
+                <h3>Eco-Friendly</h3>
+                <p>Carbon-neutral blockchain with proof-of-stake consensus</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">📊</div>
+                <h3>Real-time Analytics</h3>
+                <p>Advanced dashboard with comprehensive blockchain metrics</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="feature-icon">🛡️</div>
+                <h3>DeFi Ready</h3>
+                <p>Built-in DeFi primitives for lending, staking, and swapping</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-visual reveal-left">
+                <div class="about-card-stack">
+                    <div class="about-card">
+                        <div class="about-card-icon">🚀</div>
+                        <div class="about-card-title">Innovation First</div>
+                        <p class="about-card-text">Pushing boundaries of what's possible in Web3</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🌍</div>
+                        <div class="about-card-title">Global Scale</div>
+                        <p class="about-card-text">Infrastructure for worldwide adoption</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-card-icon">🤝</div>
+                        <div class="about-card-title">Community Driven</div>
+                        <p class="about-card-text">Built by the community, for the community</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <h2>Building the <span>Infrastructure</span> for Tomorrow</h2>
+                <p>
+                    NexaChain represents the convergence of cutting-edge cryptography, 
+                    distributed systems, and economic design. Our mission is to democratize 
+                    access to decentralized finance and enable a new era of digital ownership.
+                </p>
+                <p>
+                    Founded by industry veterans from leading tech companies, we're building 
+                    infrastructure that will power the next generation of internet applications.
+                </p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="about-feature-icon">✓</div>
+                        <span>Open Source Protocol</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">✓</div>
+                        <span>DAO Governance</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">✓</div>
+                        <span>Audited Smart Contracts</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">✓</div>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Learn More →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <div class="section-header reveal">
+            <span class="section-label">Tokenomics</span>
+            <h2 class="section-title">NEXA <span>Token</span> Distribution</h2>
+            <p class="section-subtitle">
+                Designed for long-term sustainability and community growth
+            </p>
+        </div>
+        <div class="tokenomics-content">
+            <div class="token-chart reveal-left">
+                <div class="token-donut"></div>
+                <div class="token-center">
+                    <div class="token-center-icon">💎</div>
+                    <div class="token-center-text">1B NEXA</div>
+                </div>
+            </div>
+            <div class="token-info reveal-right">
+                <h2>Fair <span>Distribution</span> Model</h2>
+                <p>
+                    Our tokenomics are designed to ensure long-term value creation and 
+                    sustainable ecosystem growth through careful allocation and vesting schedules.
+                </p>
+                <div class="token-distribution">
+                    <div class="token-item">
+                        <div class="token-color" style="background: var(--accent-primary);"></div>
+                        <span class="token-label">Community & Ecosystem</span>
+                        <span class="token-percentage">30%</span>
+                    </div>
+                    <div class="token-item">
+                        <div class="token-color" style="background: var(--accent-secondary);"></div>
+                        <span class="token-label">Development Fund</span>
+                        <span class="token-percentage">20%</span>
+                    </div>
+                    <div class="token-item">
+                        <div class="token-color" style="background: var(--accent-tertiary);"></div>
+                        <span class="token-label">Team & Advisors</span>
+                        <span class="token-percentage">20%</span>
+                    </div>
+                    <div class="token-item">
+                        <div class="token-color" style="background: var(--accent-success);"></div>
+                        <span class="token-label">Staking Rewards</span>
+                        <span class="token-percentage">15%</span>
+                    </div>
+                    <div class="token-item">
+                        <div class="token-color" style="background: var(--accent-warning);"></div>
+                        <span class="token-label">Reserve & Treasury</span>
+                        <span class="token-percentage">15%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="section-header reveal">
+            <span class="section-label">Roadmap</span>
+            <h2 class="section-title">Our <span>Journey</span> Forward</h2>
+            <p class="section-subtitle">
+                A clear path to revolutionizing decentralized technology
+            </p>
+        </div>
+        <div class="roadmap-track">
+            <div class="roadmap-line"></div>
+            <div class="roadmap-items">
+                <div class="roadmap-item completed reveal">
+                    <div class="roadmap-dot"></div>
+                    <div class="roadmap-content">
+                        <div class="roadmap-phase">Phase 1 - Q1 2024</div>
+                        <h3 class="roadmap-title">Foundation</h3>
+                        <ul class="roadmap-list">
+                            <li>Core protocol development</li>
+                            <li>Whitepaper release</li>
+                            <li>Team expansion</li>
+                            <li>Private sale</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item completed reveal">
+                    <div class="roadmap-dot"></div>
+                    <div class="roadmap-content">
+                        <div class="roadmap-phase">Phase 2 - Q2 2024</div>
+                        <h3 class="roadmap-title">Testnet Launch</h3>
+                        <ul class="roadmap-list">
+                            <li>Public testnet</li>
+                            <li>Security audits</li>
+                            <li>Developer tools</li>
+                            <li>Community building</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item active reveal">
+                    <div class="roadmap-dot"></div>
+                    <div class="roadmap-content">
+                        <div class="roadmap-phase">Phase 3 - Q3 2024</div>
+                        <h3 class="roadmap-title">Mainnet Launch</h3>
+                        <ul class="roadmap-list">
+                            <li>Mainnet deployment</li>
+                            <li>Token launch</li>
+                            <li>DEX integration</li>
+                            <li>Staking platform</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item reveal">
+                    <div class="roadmap-dot"></div>
+                    <div class="roadmap-content">
+                        <div class="roadmap-phase">Phase 4 - Q4 2024</div>
+                        <h3 class="roadmap-title">Ecosystem Growth</h3>
+                        <ul class="roadmap-list">
+                            <li>DeFi protocols</li>
+                            <li>NFT marketplace</li>
+                            <li>Cross-chain bridges</li>
+                            <li>DAO governance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="section-header reveal">
+            <span class="section-label">Team</span>
+            <h2 class="section-title">Meet Our <span>Experts</span></h2>
+            <p class="section-subtitle">
+                Industry veterans building the future of blockchain
+            </p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card reveal">
+                <div class="team-card-content">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">👨‍💻</div>
+                    </div>
+                    <h3 class="team-name">Alex Chen</h3>
+                    <p class="team-role">CEO & Founder</p>
+                    <p class="team-bio">Former Google engineer with 15 years in distributed systems</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social">𝕏</a>
+                        <a href="#" class="team-social">in</a>
+                        <a href="#" class="team-social">◆</a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-card-content">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">👩‍💼</div>
+                    </div>
+                    <h3 class="team-name">Sarah Williams</h3>
+                    <p class="team-role">CTO</p>
+                    <p class="team-bio">Blockchain architect with expertise in consensus protocols</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social">𝕏</a>
+                        <a href="#" class="team-social">in</a>
+                        <a href="#" class="team-social">◆</a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-card-content">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">👨‍🔬</div>
+                    </div>
+                    <h3 class="team-name">Michael Park</h3>
+                    <p class="team-role">Lead Developer</p>
+                    <p class="team-bio">Smart contract expert and former Ethereum core contributor</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social">𝕏</a>
+                        <a href="#" class="team-social">in</a>
+                        <a href="#" class="team-social">◆</a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card reveal">
+                <div class="team-card-content">
+                    <div class="team-avatar">
+                        <div class="team-avatar-inner">👩‍🎨</div>
+                    </div>
+                    <h3 class="team-name">Emma Davis</h3>
+                    <p class="team-role">Head of Design</p>
+                    <p class="team-bio">Award-winning UX designer specializing in Web3 products</p>
+                    <div class="team-socials">
+                        <a href="#" class="team-social">𝕏</a>
+                        <a href="#" class="team-social">in</a>
+                        <a href="#" class="team-social">◆</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="section-header reveal">
+            <span class="section-label">FAQ</span>
+            <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+            <p class="section-subtitle">
+                Everything you need to know about NexaChain
+            </p>
+        </div>
+        <div class="faq-content">
+            <div class="faq-item reveal">
+                <button class="faq-question">
+                    <h4>What is NexaChain?</h4>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>NexaChain is a next-generation Layer 1 blockchain platform designed for scalability, security, and sustainability. It enables developers to build decentralized applications with unprecedented speed and low costs.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal">
+                <button class="faq-question">
+                    <h4>How can I buy NEXA tokens?</h4>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>NEXA tokens will be available on major decentralized and centralized exchanges after our mainnet launch. You can also participate in our staking program to earn NEXA rewards.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal">
+                <button class="faq-question">
+                    <h4>What makes NexaChain different?</h4>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>NexaChain combines innovative consensus mechanisms with advanced sharding technology to achieve over 100,000 TPS while maintaining true decentralization and environmental sustainability.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal">
+                <button class="faq-question">
+                    <h4>How can I become a validator?</h4>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>To become a validator, you'll need to stake a minimum of 10,000 NEXA tokens and run a validator node. Detailed documentation and requirements are available in our developer portal.</p>
+                </div>
+            </div>
+            <div class="faq-item reveal">
+                <button class="faq-question">
+                    <h4>Is NexaChain audited?</h4>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, NexaChain has undergone comprehensive security audits by leading blockchain security firms including CertiK and Trail of Bits. All audit reports are publicly available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="cta-box reveal">
+            <div class="cta-content">
+                <h2>Ready to Build the <span>Future</span>?</h2>
+                <p>Join thousands of developers and innovators building on NexaChain. Start your journey today.</p>
+                <div class="cta-email">
+                    <input type="email" placeholder="Enter your email" aria-label="Email address">
+                    <button class="btn btn-primary">Get Early Access</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"></div>
+                    <span>NexaChain</span>
+                </a>
+                <p>Building the decentralized future, one block at a time. Join us in revolutionizing how the world transacts.</p>
+                <div class="footer-socials">
+                    <a href="#" class="footer-social" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="footer-social" aria-label="Discord">◆</a>
+                    <a href="#" class="footer-social" aria-label="Telegram">✈</a>
+                    <a href="#" class="footer-social" aria-label="GitHub">⌥</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                    <li><a href="#">Tokenomics</a></li>
+                    <li><a href="#">Whitepaper</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Developers</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">API Reference</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">SDK</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 NexaChain. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
